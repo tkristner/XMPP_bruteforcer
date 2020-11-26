@@ -1,6 +1,6 @@
 # xmpp_bruteforcer.py
 
-XMPP SCRAM SHA1 "client-proof" password bruteforcer.
+XMPP SCRAM SHA1 "client-proof" password bruteforcer, becareful it's not very fast almost 700/s !
 
 You should have a dump of one successful connection to extract info needed.
 
