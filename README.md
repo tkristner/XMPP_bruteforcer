@@ -51,7 +51,9 @@ You have to provide ("prefix") "min pass length" "max pass length" "client messs
 Launch like:
 
 without a password prefix:
+
 xmpp_scram_sha1_proof_bruteforcer.py 1 6 n=user,r=fyko+d2lbbFgONRv9qkxdawL r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096 v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=
 
 with a password prefix:
+
 xmpp_scram_sha1_proof_bruteforcer.py --prefix pass 1 6 n=user,r=fyko+d2lbbFgONRv9qkxdawL r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096 v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=
