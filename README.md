@@ -1,4 +1,4 @@
-# XMPP_Brut
+# xmpp_bruteforcer.py
 
 XMPP SCRAM SHA1 "client-proof" password bruteforcer.
 
