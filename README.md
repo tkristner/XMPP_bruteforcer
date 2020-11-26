@@ -34,16 +34,16 @@ This is looking like this:
 SASL Messages:
 
 1. Client Message 1
-n,,n=user,r=fyko+d2lbbFgONRv9qkxdawL
+`n,,n=user,r=fyko+d2lbbFgONRv9qkxdawL`
 
 2. Server Message 1
-r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096
+`r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096`
 
 3. Client Message 2
-c=biws,r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,p=v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=
+`c=biws,r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,p=v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=`
 
 4. Server Message 2
-v=rmF9pqV8S7suAoZWja4dJRkFsKQ=
+`v=rmF9pqV8S7suAoZWja4dJRkFsKQ=`
 
 ---------------------------
 
@@ -53,8 +53,8 @@ Launch like:
 
 without a password prefix:
 
-xmpp_bruteforcer.py 1 6 n=user,r=fyko+d2lbbFgONRv9qkxdawL r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096 v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=
+`xmpp_bruteforcer.py 1 6 n=user,r=fyko+d2lbbFgONRv9qkxdawL r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096 v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=`
 
 with a password prefix:
 
-xmpp_bruteforcer.py --prefix pass 1 6 n=user,r=fyko+d2lbbFgONRv9qkxdawL r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096 v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=
+`xmpp_bruteforcer.py --prefix pass 1 6 n=user,r=fyko+d2lbbFgONRv9qkxdawL r=fyko+d2lbbFgONRv9qkxdawL3rfcNHYJY1ZVvWVs7j,s=QSXCR+Q6sek8bf92,i=4096 v0X8v3Bz2T0CJGbJQyF0X+HI4Ts=`
